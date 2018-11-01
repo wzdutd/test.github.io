@@ -1,0 +1,140 @@
+.header-wrap{
+	width: 100%;
+	padding: 0.2em 0;
+	position: fixed;
+	background: hsla(240,17%,99%,0.97);
+    border-bottom: 0.0625em solid #fff;
+	box-shadow: 0 0.375em 0 hsla(0,0%,0%,0.03);
+	z-index: 100;
+}
+header{
+	position: relative;
+	width: 93%;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+header>div,nav ul li,header nav{
+	display: inline-block;
+}
+#logo{
+	margin-right: 30px;
+}
+nav ul li {
+	padding: 0 2em;
+}
+nav ul li a{
+	font-size: 20px;
+	font-weight:400;
+}
+nav ul li a:hover{
+	color: #2A8AD8;
+}
+.title {
+    margin: 0;
+    padding: 7em 0 3.0625em;
+    /*box-shadow: 0 0.375em #262C35;*/
+    position: relative;
+    background: #2A8AD8;
+    background: -moz-linear-gradient(top, #2b5cd6 0%,#2A8AD8 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2b5cd6),color-stop(100%,#2A8AD8));
+    background: -webkit-linear-gradient(top, #2b5cd6 0%,#2A8AD8 100%);
+    background: -o-linear-gradient(top, #2b5cd6 0%,#2A8AD8 100%);
+    background: -ms-linear-gradient(top, #2b5cd6 0%,#2A8AD8 100%);
+    background: linear-gradient(to bottom, #2b5cd6 0%,#2A8AD8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b5cd6',endColorstr='#2A8AD8',GradientType=0 );
+}
+.title:before {
+    border-color: transparent;
+    border-top-color: #2b5cd6;
+    border-width: 2.5em;
+    left: 50%;
+    margin-left: -2.45em;
+}
+.title:after, .title:before{
+    top: 100%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.title:after {
+    border-color: transparent;
+    border-top-color: #2A8AD8;
+    border-width: 2em;
+    left: 50%;
+    margin-left: -2em;
+    margin-top: -0.0625em;
+}
+.title.intro h1, .title.intro p,.title.intro h2 {
+	width: 80%;
+    margin: 1.25em auto 0;
+    color: #EAE4E4;
+    font-size: 1.215em;
+    text-align: center;
+    text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+}
+
+.main section{
+	padding-top:70px;
+	font-family: "微软雅黑";
+}
+/*call for papers*/
+.callforpaper h2,
+.programCommittee h2,
+.chairs h2,
+.submitGuide h2{
+	color: #000000;
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+}
+.callforpaper p{
+	text-indent: 2em;
+	color: black;
+	line-height: 28px;
+}
+.callforpaper ul li{
+	font-weight: 600;
+}
+/*program committee*/
+.programCommittee ul li{
+	font-weight: 600;
+}
+/*guide*/
+.submitGuide h3 span{
+	font-weight: 600;
+}
+.submitGuide h3 {
+	text-indent: 1em;
+}
+/*chairs*/
+.chairs ul li span{
+	font-weight: 600;
+}
+/*contact*/
+.contact {
+	background: #fff;
+	padding-top: 20px;
+}
+.contact .contact-left{
+	padding-top:30px ;
+}
+.contact .contact-left p {
+	margin: 10px -15px;		
+}
+.contact .contact-left p span{
+	font-weight:600 ;
+}
+
+.contact .contact-left p.copyright {
+	color:darkgray;
+	font-weight: 600;
+}
+.contact .contact-right{
+	text-align: center;
+}
+.contact .contact-right img{
+	width: 100px;
+}
