@@ -111,19 +111,9 @@ sup {
 sub {
 	bottom: -0.25em
 }
-
-dl,menu,ol,ul {
-	margin: 1em 0
-}
-
 dd {
 	margin: 0 0 0 40px
 }
-
-menu,ol,ul {
-	padding: 0 0 0 40px
-}
-
 nav ul,nav ol {
 	list-style: none;
 	list-style-image: none
@@ -248,23 +238,6 @@ body {
 	font-size: 100%;
 	background: #F7F7F7;
 	-webkit-font-smoothing: antialiased;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0 0 1em 0
-}
-
-li {
-	padding: 1em 0 0 1em;
-	text-indent: -1em;
-	line-height: 1.5em
-}
-
-aside li {
-	padding: 0 0 0 1em;
-	line-height: 2em
 }
 
 li:before {
