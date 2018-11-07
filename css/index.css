@@ -4,27 +4,35 @@
 	position: fixed;
 	background: hsla(240,17%,99%,0.97);
     border-bottom: 0.0625em solid #fff;
-	box-shadow: 0 0.375em 0 hsla(0,0%,0%,0.03);
+	box-shadow: 0 0.275em 0 hsla(0,0%,0%,0.03);
 	z-index: 100;
 }
 header{
 	position: relative;
 	width:80%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 header>div,nav>ul>li{
 	display: inline-block;
 	float: left;
 }
 #logo{
-	width: 8%;
-	margin-right: 2%;
+	width: 20%;
 }
 #logo img{
 	width: 82px;
+	height: 80px;
+}
+#logo a {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    float: left;
+    border-bottom: none;
 }
 nav{
-	width: 90%;
+	width: 80%;
 	height: 5em;
 	float: right;
 }
@@ -40,6 +48,7 @@ nav>ul>li>a{
 	font-size: 20px;
 	font-weight:400;
 	color: #2A8AD8;
+	border: none;
 }
 nav>ul>li>a:hover{
 	color: #000;
@@ -124,6 +133,10 @@ section ul li{
 	color: black;
 	line-height: 28px;
 }
+.travelReg p a{
+	color: #2A8AD8;
+	text-decoration: underline;
+}
 
 /*program committee*/
 
@@ -142,7 +155,16 @@ section ul li{
 	text-align: center;
 }
 .submitGuide .submit_link a{
-	color:#000;	
+	color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #000;
+}
+.submitGuide .submit_link a:hover {
+    color: coral;
+}
+.submitGuide h3 a {
+    color: #2A8AD8;
 }
 /*chairs*/
 .chairs ul li span{
@@ -170,6 +192,12 @@ section ul li{
 .contact .contact-right{
 	text-align: center;
 	font-weight: bold;
+}
+.contact .contact-right .labImg{
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	float: left;
 }
 .contact .contact-right img{
 	width: 100px;
