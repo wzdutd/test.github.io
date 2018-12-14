@@ -94,10 +94,10 @@ nav>ul>li>a:hover{
 .title.intro h1, .title.intro p,.title.intro h2 {
 	width: 80%;
     margin: 1.25em auto 0;
-    color: #EAE4E4;
+    color: #ffffff;
     font-size: 1.215em;
     text-align: center;
-    text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+    text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.10);
 }
 .title.intro h2 a:hover{
 	text-decoration: none;
