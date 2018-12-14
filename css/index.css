@@ -99,6 +99,9 @@ nav>ul>li>a:hover{
     text-align: center;
     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
 }
+.title.intro h2 a:hover{
+	text-decoration: none;
+}
 .title.intro p span{
 	padding: 0;
 	color: #fff;
@@ -136,6 +139,9 @@ section ul li{
 .travelReg p a{
 	color: #2A8AD8;
 	text-decoration: underline;
+}
+.travelReg li a{
+	text-decoration:underline;
 }
 
 /*program committee*/
